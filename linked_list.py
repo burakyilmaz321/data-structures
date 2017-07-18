@@ -1,3 +1,15 @@
+'''
+Linked list class with core methods
+Credits: https://www.youtube.com/watch?v=9YddVVsdG5A
+
+Usage:
+some_list = LinkedList()
+some_list.add('first node')
+some_list.add('second node')
+some_list.getSize()
+>> 2
+'''
+
 class LinkedList(object):
     def __init__(self):
         self.length = 0
